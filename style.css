@@ -105,16 +105,44 @@ section {
 /*--About End--*/
 #education {
   width: 100%;
+  margin-left: 100px;
 }
 #education h3 {
   font-size: 140%;
+  margin:20px;
 }
 #education h4 {
   font-size: 120%;
+  margin: 10px;
+  padding-left: 20px;
 }
 #education p {
   font-size: 100%;
+  margin: 10px;
+  width: 500px;
+  padding-left: 40px;
+  line-height: 120%;
 }
 #education h3, #education h4, #education p {
   font-family: 'Lato', sans-serif;
+
+/*--footer start--*/
+}
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  opacity: .9;
+}
+
+footer h3 {
+  font-family: 'Lato', sans-serif;
+  color: #a7a7a7;
+}
+.icon {
+  margin: 10px 5px;
+  opacity: .5;
+}
+.icon:hover {
+  opacity: 1;
 }
