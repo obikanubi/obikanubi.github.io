@@ -24,6 +24,7 @@ header {
   width: 100%;
   height: 50px;
   opacity: .8;
+  z-index: 1;
 }
 #initials {
   float: left;
@@ -158,11 +159,10 @@ footer h3 {
 }
 /*--responsive design start--*/
 @media screen and (max-width: 782px) {
-  #banner {
-    height: 400px;
-    width: 100%;
-    background-size: contain;
-    background-attachment: fixed;
+  header {
+    position: static;
+    height: 250px;
+    opacity: 1;
   }
   #initials {
     margin-bottom: 0;
@@ -171,9 +171,11 @@ footer h3 {
     margin-bottom: 10px;
   }
   #navbar {
+    float: none;
     width: 100%;
     margin: 0;
     padding: 0;
+    opacity: 1;
   }
   #navbar li {
     border-top: 1px solid #a7a7a7;
@@ -183,13 +185,17 @@ footer h3 {
     background-color: black;
     text-align: center;
   }
-
   #navbar li a {
     margin: 0;
     padding: 0;
   }
   #bottom-border {
     border-bottom: 1px solid #a7a7a7;
+  }
+  #banner {
+    height: 400px;
+    width: 100%;
+    background-size: contain;
   }
   #intro {
     margin: 0;
@@ -207,6 +213,10 @@ footer h3 {
 }
 
 @media screen and (max-width: 480px) {
+  header {
+    position: static;
+    height: 150px;
+  }
   #navbar li {
     height: 20px;
     padding-top: 5px;
@@ -233,7 +243,6 @@ footer h3 {
   #about #bio {
     font-size: 120%;
   }
-
   #education h3 {
     font-size: 120%;
     margin:10px;
