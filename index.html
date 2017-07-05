@@ -9,6 +9,31 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(function() {
+      $("#homebutton").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#banner").offset().top
+      }, 1000);
+      });
+      $("#aboutbutton").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#about").offset().top
+      }, 1000);
+      });
+      $("#educationbutton").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#education").offset().top
+      }, 1000);
+      });
+      $("#portfoliobutton").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#portfolion").offset().top
+      }, 1000);
+      });
+    });
+    </script>
   </head>
 
   <body>
@@ -17,10 +42,10 @@
         <p id="initials">TC</p>
         <p id="name">Trevor Cruz</p>
         <ul id="navbar">
-          <li><a href="#">Home<a></li>
-          <li><a href="#">About<a></li>
-          <li><a href="#">Education<a></li>
-          <li id="bottom-border"><a href="#">Portfolio<a></li>
+          <li><a href="#" id="homebutton">Home<a></li>
+          <li><a href="#" id="aboutbutton">About<a></li>
+          <li><a href="#" id="educationbutton">Education<a></li>
+          <li id="bottom-border"><a href="#" id="portfoliobutton">Portfolio<a></li>
         </ul>
       </header>
       <div id="banner">
