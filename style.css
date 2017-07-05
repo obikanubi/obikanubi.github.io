@@ -1,5 +1,8 @@
 body {
-  box-sizing: border-box
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
 }
 #container {
   background-color: #F5F5F5;
@@ -165,7 +168,6 @@ footer h3 {
   header {
     height: 100px;
   }
-
   #navbar {
     width: 100%;
     margin: 0;
@@ -195,7 +197,7 @@ footer h3 {
 @media screen and (max-width: 480px) {
   header {
     position: static;
-    height: 151px;
+    height: 167px;
     opacity: 1;
   }
   #navbar {
@@ -208,6 +210,7 @@ footer h3 {
     width: 100%;
     text-align: center;
     border-top: 1px solid #a7a7a7;
+    padding: 2px 0;
   }
   #navbar li a {
     line-height: 120%;
@@ -219,7 +222,7 @@ footer h3 {
     border-bottom: 1px solid #a7a7a7;
   }
   #banner {
-    height: 180px;
+    height: 160px;
     width: 100%;
     background-size: contain;
     background-attachment: fixed;
