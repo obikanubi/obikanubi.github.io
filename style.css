@@ -180,8 +180,7 @@ footer h3 {
   #banner {
     background-image: url(images/bulbs.jpeg);
     height: 400px;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
     background-size: 768px;
   }
   #intro {
@@ -226,8 +225,7 @@ footer h3 {
     background-image: url(images/bulbss.jpeg);
     position: static;
     height: 160px;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
     background-size: 480px;
   }
   #info {
