@@ -182,7 +182,7 @@ footer h3 {
     height: 400px;
     width: auto;
     max-width: 100%;
-    background-size: contain;
+    background-size: 768px;
   }
   #intro {
     margin: 0;
@@ -228,7 +228,7 @@ footer h3 {
     height: 160px;
     width: auto;
     max-width: 100%;
-    background-size: contain;
+    background-size: 480px;
   }
   #info {
     margin: 20px auto 0;
