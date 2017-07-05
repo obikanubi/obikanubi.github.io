@@ -196,9 +196,8 @@ footer h3 {
 }
 @media screen and (max-width: 480px) {
   header {
-    position: static;
+    position: absolute;
     height: 167px;
-    opacity: 1;
   }
   #navbar {
     width: 100%;
@@ -224,7 +223,7 @@ footer h3 {
   #banner {
     background-image: url(images/bulbss.jpeg);
     position: static;
-    height: 160px;
+    height: 167px;
     width: 100%;
     background-size: 480px;
   }
