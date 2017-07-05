@@ -229,7 +229,6 @@ footer h3 {
     width: auto;
     max-width: 100%;
     background-size: contain;
-    background-attachment: fixed;
   }
   #info {
     margin: 20px auto 0;
