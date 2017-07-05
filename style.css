@@ -181,7 +181,7 @@ footer h3 {
   }
   #banner {
     height: 400px;
-    width: 100%;
+    width: 768px;
     background-size: contain;
   }
   #intro {
@@ -223,8 +223,9 @@ footer h3 {
     border-bottom: 1px solid #a7a7a7;
   }
   #banner {
+    position: static;
     height: 160px;
-    width: 100%;
+    width: 480px;
     background-size: contain;
     background-attachment: fixed;
   }
