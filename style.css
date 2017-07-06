@@ -227,6 +227,7 @@ input[type=submit]:hover {
   header {
     position: absolute;
     height: 100px;
+    overflow: hidden;
   }
   #navbar {
     width: 100%;
@@ -270,7 +271,10 @@ input[type=submit]:hover {
 @media screen and (max-width: 480px) {
   header {
     position: absolute;
-    height: 167px;
+    height: 139px;
+  }
+  #navbar li:first-child {
+    display: none;
   }
   #navbar {
     width: 100%;
@@ -296,22 +300,28 @@ input[type=submit]:hover {
   #banner {
     background-image: url(images/bulbss.jpeg);
     position: static;
-    height: 167px;
+    height: 139px;
     width: 100%;
     background-size: 480px;
   }
   #intro {
-    height: 600px;
+    height: 350px;
   }
   #info {
+    height: 130px;
     width: 100%;
   }
+  #info p {
+    padding-top: 40px;
+    font-size: 180%;
+  }
   #photowrapper {
+    height: 200px;
     width: 100%;
   }
   #photo {
     top: 0;
-    left: 120px;
+    left: 22%;
   }
   #about #bio {
     font-size: 120%;
