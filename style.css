@@ -71,26 +71,40 @@ section {
   width: 100%;
 }
 #intro-inner {
-  max-width: 1200px;
+  max-width: 600px;
   height: 300px;
   margin: 0 auto;
 }
 #info {
+  display: inline-block;
   width: 50%;
+  height: 300px;
+  float: left;
+  margin: 0 auto;
+}
+#info p {
   text-align: center;
   font-family: 'Josefin Slab', serif;
   font-size: 250%;
-  height: 200px;
-  float: left;
-  margin: 100px 50px 0 0;
+  display: block;
+  vertical-align: middle;
+  padding-top: 20%;
+}
+#photowrapper {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  width: 50%;
+  height: 300px;
 }
 #photo {
-  float: left;
-  width: 50%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  text-align: center;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-top: 50px;
 }
 #about {
   display: block;
@@ -111,6 +125,12 @@ section {
   text-align: center;
 }
 /*------About End-------*/
+.textwrapper {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 65%;
+}
 #education {
   width: 100%;
   background-color: #FFF;
@@ -122,16 +142,14 @@ section {
 }
 #education h4 {
   font-size: 120%;
-  margin: 10px;
-  padding-left: 20px;
-  font-weight: bold;
+  text-align: left;
 }
 #education p {
+  padding-left: 20px;
+  margin-top: 10px;
   font-size: 100%;
-  margin: 10px;
-  width: 500px;
-  padding-left: 40px;
   line-height: 120%;
+  text-align: left;
 }
 #education h3, #education h4, #education p {
   font-family: 'Lato', sans-serif;
@@ -223,12 +241,9 @@ input[type=submit]:hover {
     width: 100%;
     background-size: 768px;
   }
-  #intro {
-    margin: 0;
-  }
-  #info {
-    font-size: 180%;
-    margin-left: 20px;
+  #intro-inner {
+    width: 100%;
+    height: 300px;
   }
   #about #bio {
     font-size: 150%;
@@ -285,15 +300,18 @@ input[type=submit]:hover {
     width: 100%;
     background-size: 480px;
   }
+  #intro {
+    height: 600px;
+  }
   #info {
-    margin: 20px auto 0;
     width: 100%;
-    height: 100px;
+  }
+  #photowrapper {
+    width: 100%;
   }
   #photo {
-    display: block;
-    margin: 0 0 0 25%;
-    text-align: center;
+    top: 0;
+    left: 120px;
   }
   #about #bio {
     font-size: 120%;
